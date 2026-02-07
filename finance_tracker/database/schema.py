@@ -1,6 +1,5 @@
 import sqlite3
 
-
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -9,5 +8,3 @@ CREATE TABLE IF NOT EXISTS users (
     created_at TEXT NOT NULL
 );
 ''')
-
-
